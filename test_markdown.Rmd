@@ -1,0 +1,10 @@
+---
+```{r}
+library(terra)
+library(here)
+jan<-terra::rast(here("wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
+---
