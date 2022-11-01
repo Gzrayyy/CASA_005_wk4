@@ -26,7 +26,7 @@ sdw_2 <- sdw%>%left_join(.,
                          ggi_year,
                          by=c('COUNTRY'='country'))
 sdw_3 <- st_as_sf(sdw_2)
-qtm(sdw_2,fill='hid_2019-2010')
+qtm(sdw_2,fill='hdi_2019-2010')
 
 ```
 
